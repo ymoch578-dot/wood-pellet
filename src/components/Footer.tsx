@@ -5,7 +5,7 @@ const Footer = () => (
     <div className="container mx-auto px-4 lg:px-8 py-16">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
-          <h3 className="font-heading text-lg font-bold mb-4">PT. Sukses Ekspor Mandiri</h3>
+          <h3 className="font-heading text-lg font-bold mb-4">Wood Pellet Indonesia</h3>
           <p className="text-sm opacity-80 leading-relaxed">
             Your trusted Indonesian wood pellet supply partner. Coordinated production and export handling for international markets.
           </p>
@@ -36,8 +36,8 @@ const Footer = () => (
         <div>
           <h4 className="font-heading text-sm font-semibold mb-4 uppercase tracking-wider opacity-70">Contact</h4>
           <p className="text-sm opacity-80 leading-relaxed">
-            Jakarta, Indonesia<br />
-            info@suksesekspormandiri.co.id
+            Malang, Indonesia<br />
+            sales@biomass.suksesekspormandiri.com
           </p>
           <Link
             to="/contact"

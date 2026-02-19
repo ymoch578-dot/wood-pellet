@@ -8,12 +8,12 @@ const markets = [
   {
     region: "South Korea",
     desc: "Supporting Korea's Renewable Portfolio Standard (RPS) with reliable biomass fuel supply for co-firing and dedicated biomass power generation.",
-    points: ["RPS-compliant supply coordination", "Major Korean port delivery", "Long-term supply agreements"],
+    points: ["RPS-compliant biomass fuel supply", "Major Korean port delivery", "Long-term supply agreements"],
   },
   {
     region: "Japan",
     desc: "Serving Japan's expanding biomass power sector under the Feed-in Tariff (FIT) program with consistent, specification-compliant wood pellets.",
-    points: ["FIT-eligible biomass fuel supply", "Japanese port delivery coordination", "Quality documentation for Japanese standards"],
+    points: ["FIT-eligible biomass fuel supply", "Direct shipment to major Japanese ports", "Quality documentation for Japanese standards"],
   },
   {
     region: "Europe",
@@ -29,14 +29,14 @@ const ExportMarkets = () => (
       <meta name="description" content="PT. Sukses Ekspor Mandiri serves wood pellet buyers in South Korea, Japan, and Europe with coordinated export handling from Indonesian ports." />
     </Helmet>
 
-    <PageHero image={logisticsImg} title="Export Markets" subtitle="Serving biomass buyers across Asia and Europe with coordinated Indonesian supply." />
+    <PageHero image={logisticsImg} title="Export Markets" subtitle="Serving biomass buyers across Asia and Europe with structured, export-ready Indonesian supply." />
 
     <section className="py-20 md:py-28">
       <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-4">Markets We Serve</h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            We manage export logistics from Indonesia to key biomass markets, with shipments coordinated through major Indonesian ports for efficient and timely delivery.
+            Our export operations are structured to support reliable shipment flows to key biomass markets, with shipments coordinated through major Indonesian ports for efficient and timely delivery.
           </p>
         </div>
 
@@ -68,13 +68,13 @@ const ExportMarkets = () => (
         <h2 className="font-heading text-3xl font-bold text-foreground mb-6 text-center">Export Logistics</h2>
         <div className="space-y-4 text-muted-foreground leading-relaxed">
           <p>
-            Our export handling covers the complete documentation and logistics chain: from production coordination at partner facilities, quality verification, inland transport, port loading, to vessel coordination for international shipment.
+            Our export operations cover the complete documentation and logistics chain — from production management under defined operational standards, quality verification, inland transport, port loading, to vessel arrangement for international shipment.
           </p>
           <p>
-            We work with established freight and shipping partners to ensure competitive rates and reliable scheduling. Shipments are coordinated through major Indonesian ports including those in Kalimantan, Sumatra, and Java.
+            Shipments are arranged through established international shipping lines to ensure competitive rates and reliable scheduling. Export flows are routed through major Indonesian ports in Kalimantan, Sumatra, and Java to optimize efficiency and transit time.
           </p>
           <p>
-            Specification available upon request. Our team is prepared to discuss your specific volume, scheduling, and delivery requirements.
+            Specifications are available upon request. Our team is prepared to discuss volume planning, shipment scheduling, and delivery requirements aligned with your operational needs.
           </p>
         </div>
       </div>
