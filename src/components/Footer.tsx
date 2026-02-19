@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Mail } from "lucide-react";
 
 const Footer = () => (
   <footer className="bg-primary text-primary-foreground">
@@ -7,7 +8,7 @@ const Footer = () => (
         <div>
           <h3 className="font-heading text-lg font-bold mb-4">Wood Pellet Indonesia</h3>
           <p className="text-sm opacity-80 leading-relaxed">
-            Your trusted Indonesian wood pellet supply partner. Coordinated production and export handling for international markets.
+            A trusted Indonesian wood pellet company committed to consistent production quality and dependable export execution worldwide.
           </p>
         </div>
         <div>
@@ -36,14 +37,14 @@ const Footer = () => (
         <div>
           <h4 className="font-heading text-sm font-semibold mb-4 uppercase tracking-wider opacity-70">Contact</h4>
           <p className="text-sm opacity-80 leading-relaxed">
-            Malang, Indonesia<br />
-            sales@biomass.suksesekspormandiri.com
+            Malang Regency, East Java Province Indonesia<br />
+            <span className="inline-flex items-center gap-1.5 mt-1"><Mail className="w-3.5 h-3.5" strokeWidth={1.5} />sales@biomass.suksesekspormandiri.com</span>
           </p>
           <Link
             to="/contact"
             className="inline-block mt-4 px-5 py-2 text-sm font-semibold bg-accent text-accent-foreground rounded-md hover:bg-accent/90 transition-colors"
           >
-            Discuss Supply Plan
+            Request Quotation
           </Link>
         </div>
       </div>
