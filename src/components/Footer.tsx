@@ -40,12 +40,6 @@ const Footer = () => (
             Malang Regency, East Java Province, Indonesia<br />
             <span className="inline-flex items-center gap-1.5 mt-1"><Mail className="w-3.5 h-3.5" strokeWidth={1.5} />sales@biomass.suksesekspormandiri.com</span>
           </p>
-          <Link
-            to="/contact"
-            className="inline-block mt-4 px-5 py-2 text-sm font-semibold bg-accent text-accent-foreground rounded-md hover:bg-accent/90 transition-colors"
-          >
-            Request Quotation
-          </Link>
         </div>
       </div>
       <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center text-xs opacity-60">
