@@ -115,19 +115,19 @@ const Contact = () => {
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-primary mt-0.5" strokeWidth={1.5} />
                     <div className="text-sm text-muted-foreground">
-                      Jakarta, Indonesia
+                      Malang, Indonesia
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Mail className="w-5 h-5 text-primary mt-0.5" strokeWidth={1.5} />
                     <div className="text-sm text-muted-foreground">
-                      info@suksesekspormandiri.co.id
+                      sales@biomass.suksesekspormandiri.com
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Phone className="w-5 h-5 text-primary mt-0.5" strokeWidth={1.5} />
                     <div className="text-sm text-muted-foreground">
-                      Available upon request
+                      +62 857 6387 6233
                     </div>
                   </div>
                 </div>

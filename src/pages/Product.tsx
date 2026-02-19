@@ -29,13 +29,13 @@ const Product = () => (
             <h2 className="font-heading text-3xl font-bold text-foreground mb-6">Product Overview</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Our wood pellets are produced at selected partner facilities across Indonesia, utilizing sustainably managed wood residues and plantation timber by-products.
+                Our wood pellets are produced under controlled production standards in Indonesia, utilizing sustainably managed wood residues and plantation timber by-products.
               </p>
               <p>
-                Designed for industrial power generation and co-firing applications, our wood pellets deliver consistent energy output with specifications that can be tailored to match your boiler and combustion system requirements.
+                Designed for industrial power generation and co-firing applications, our wood pellets deliver consistent energy output with specifications tailored to match your boiler and combustion system requirements.
               </p>
               <p>
-                All specifications shown are indicative and fully customizable based on buyer requirements. Detailed specifications are available upon request.
+                All specifications provided are indicative and can be adjusted to meet buyer requirements. Detailed technical data sheets are available upon request.
               </p>
             </div>
 

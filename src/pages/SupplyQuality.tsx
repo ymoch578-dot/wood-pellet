@@ -6,10 +6,10 @@ import heroImage from "@/assets/hero-home.jpg";
 import { Search, Factory, Ship, FileCheck } from "lucide-react";
 
 const steps = [
-  { icon: Factory, title: "Partner Selection", desc: "Careful vetting and selection of production partner facilities across Indonesia based on capability, reliability, and quality standards." },
-  { icon: Search, title: "Quality Monitoring", desc: "Pre-shipment quality inspections at partner facilities to ensure compliance with agreed specifications before export." },
-  { icon: FileCheck, title: "Documentation", desc: "Complete export documentation management including certificates of analysis, packing lists, and shipping documents." },
-  { icon: Ship, title: "Logistics Coordination", desc: "End-to-end logistics management from partner facility to destination port, optimizing for efficiency and reliability." },
+  { icon: Factory, title: "Integrated Production Framework", desc: "Operations are aligned within a structured production framework designed to meet international quality and compliance standards." },
+  { icon: Search, title: "Quality Control", desc: "Pre-shipment quality inspections are conducted under standardized procedures to ensure compliance with agreed specifications." },
+  { icon: FileCheck, title: "Document", desc: "Complete export documentation management including certificates of analysis, packing lists, and shipping documents." },
+  { icon: Ship, title: "Export & Logistics Handling", desc: "End-to-end export and logistics handling from production site to destination port, optimized for efficiency and reliability." },
 ];
 
 const SupplyQuality = () => (
@@ -19,14 +19,14 @@ const SupplyQuality = () => (
       <meta name="description" content="How PT. Sukses Ekspor Mandiri manages quality monitoring, partner coordination, and export logistics for reliable wood pellet supply from Indonesia." />
     </Helmet>
 
-    <PageHero image={heroImage} title="Supply & Quality Management" subtitle="Coordinated production and systematic quality oversight across our partner network." />
+    <PageHero image={heroImage} title="Supply & Quality Management" subtitle="Coordinated production and systematic quality oversight across our structured production framework." />
 
     <section className="py-20 md:py-28">
       <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-4">Our Supply Chain Process</h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            From partner facility coordination to port of destination — every step is managed for consistency, quality, and reliability.
+            From production management to final port delivery — every stage operates under defined standards for consistency, quality, and reliability.
           </p>
         </div>
 
@@ -52,11 +52,11 @@ const SupplyQuality = () => (
         <h2 className="font-heading text-3xl font-bold text-foreground mb-6 text-center">Risk Mitigation</h2>
         <div className="space-y-6">
           {[
-            { title: "Multi-Source Supply", desc: "By working with multiple partner facilities, we reduce dependency on any single source and ensure supply continuity even during seasonal fluctuations." },
+            { title: "Multi-Source Production Structure", desc: "A diversified production structure reduces dependency on a single facility and supports supply continuity during seasonal fluctuations." },
             { title: "Pre-Shipment Verification", desc: "Every shipment undergoes quality checks against agreed specifications before being cleared for export, minimizing the risk of off-spec deliveries." },
             { title: "Transparent Communication", desc: "Regular supply updates and open communication channels ensure buyers are informed at every stage of the process." },
           ].map((item) => (
-            <div key={item.title} className="bg-card p-6 rounded-lg border border-border">
+            <div key={item.title} className="bg-card p-6 rounded-lg border border-border text-center">
               <h3 className="font-heading font-semibold text-foreground mb-2">{item.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">{item.desc}</p>
             </div>

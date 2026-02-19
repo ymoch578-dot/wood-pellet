@@ -25,13 +25,13 @@ const About = () => (
         <h2 className="font-heading text-3xl font-bold text-foreground mb-6">Who We Are</h2>
         <div className="space-y-5 text-muted-foreground leading-relaxed">
           <p>
-            PT. Sukses Ekspor Mandiri operates as an integrated biomass supply partner based in Indonesia. We coordinate wood pellet production from selected partner facilities across the Indonesian archipelago, managing quality monitoring and export logistics to serve buyers in South Korea, Japan, and Europe.
+            PT. Sukses Ekspor Mandiri is an export-oriented biomass company specializing in wood pellet supply for international markets. Our operations are structured to support consistent production standards, quality control, and reliable export logistics for buyers in South Korea, Japan, and Europe.
           </p>
           <p>
-            Our role is to bridge the gap between Indonesia's abundant biomass resources and international buyers who require consistent, specification-compliant supply with reliable export handling. We do not operate manufacturing facilities directly — instead, we leverage a network of carefully selected production partners to ensure supply flexibility and continuity.
+            We operate through a coordinated production and quality management framework designed to meet international specifications and compliance requirements. Each shipment is handled under defined operational standards to ensure supply continuity, product consistency, and export readiness.
           </p>
           <p>
-            By managing the supply chain from coordination through export documentation and port logistics, we provide international buyers with a single, accountable point of contact for their Indonesian biomass procurement needs.
+            From production planning and quality verification to export documentation and port logistics, we provide a streamlined and accountable supply process — delivering stability, transparency, and dependable performance to our international partners.
           </p>
         </div>
       </div>

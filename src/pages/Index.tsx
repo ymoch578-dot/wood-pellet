@@ -5,13 +5,13 @@ import CTASection from "@/components/CTASection";
 import heroImage from "@/assets/hero-home.jpg";
 import pelletsImage from "@/assets/wood-pellets.jpg";
 import logisticsImage from "@/assets/export-logistics.jpg";
-import { Shield, Globe, Handshake, BarChart3 } from "lucide-react";
+import { Shield, Globe, Handshake, BarChart3, ClipboardList } from "lucide-react";
 
 const strengths = [
   {
-    icon: Globe,
-    title: "Integrated Supply Network",
-    desc: "Coordinated production from selected partner facilities across Indonesia, ensuring consistent supply continuity.",
+    icon: ClipboardList,
+    title: "Structured Supply Management",
+    desc: "Operational planning designed to ensure stable production capacity and consistent delivery performance.",
   },
   {
     icon: Shield,
@@ -41,11 +41,11 @@ const Index = () => (
     </Helmet>
 
     {/* Hero */}
-    <section className="relative h-[85vh] min-h-[600px] flex items-center overflow-hidden">
+    <section className="relative h-[85vh] min-h-[600px] flex items-center justify-center overflow-hidden">
       <img src={heroImage} alt="Indonesian biomass supply network" className="absolute inset-0 w-full h-full object-cover" />
       <div className="hero-overlay absolute inset-0" />
-      <div className="relative z-10 container mx-auto px-4 lg:px-8">
-        <div className="max-w-2xl">
+      <div className="relative z-10 container mx-auto px-4 lg:px-8 text-center">
+        <div className="max-w-2xl mx-auto">
           <p className="text-accent font-semibold text-sm uppercase tracking-widest mb-4 animate-fade-in-up">
             Wood Pellet Exporter Indonesia
           </p>
@@ -53,22 +53,8 @@ const Index = () => (
             Your Reliable Indonesian Biomass Supply Partner
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/85 mb-8 leading-relaxed animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-            Coordinated wood pellet production and export handling from Indonesia's integrated supply network — serving power plants and industrial buyers worldwide.
+            Structured wood pellet production and export operations from Indonesia, serving power plants and industrial buyers worldwide.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-            <Link
-              to="/contact"
-              className="px-8 py-3.5 text-sm font-semibold bg-accent text-accent-foreground rounded-md hover:bg-accent/90 transition-colors text-center"
-            >
-              Request Quotation
-            </Link>
-            <Link
-              to="/contact"
-              className="px-8 py-3.5 text-sm font-semibold border-2 border-primary-foreground/30 text-primary-foreground rounded-md hover:bg-primary-foreground/10 transition-colors text-center"
-            >
-              Discuss Supply Plan
-            </Link>
-          </div>
         </div>
       </div>
     </section>
@@ -81,13 +67,13 @@ const Index = () => (
             Why Partner With Us
           </h2>
           <p className="text-muted-foreground text-lg">
-            We manage the entire supply chain — from coordinated production at partner facilities to export documentation and logistics.
+            We operate under a structured production and export management system — from production oversight to documentation and port logistics.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {strengths.map((s) => (
-            <div key={s.title} className="bg-card rounded-lg p-8 border border-border hover:shadow-lg transition-shadow">
-              <s.icon className="w-10 h-10 text-primary mb-5" strokeWidth={1.5} />
+            <div key={s.title} className="bg-card rounded-lg p-8 border border-border hover:shadow-lg transition-shadow text-center">
+              <s.icon className="w-10 h-10 text-primary mx-auto mb-5" strokeWidth={1.5} />
               <h3 className="font-heading text-lg font-semibold text-foreground mb-2">{s.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">{s.desc}</p>
             </div>
@@ -106,7 +92,7 @@ const Index = () => (
               Premium Biomass Fuel for Power Generation
             </h2>
             <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-              Our wood pellets are sourced from selected partner facilities across Indonesia, with specifications customizable to match your boiler and co-firing requirements.
+              Our wood pellets are produced under controlled production standards in Indonesia, with specifications customizable to match your boiler and co-firing requirements.
             </p>
             <ul className="space-y-3 mb-8">
               {["Customizable calorific value & moisture content", "Consistent diameter & length specifications", "Bulk shipment via major Indonesian ports", "Specification available upon request"].map((item) => (
@@ -131,14 +117,14 @@ const Index = () => (
     <section className="relative py-20 md:py-28 overflow-hidden">
       <img src={logisticsImage} alt="Export logistics" className="absolute inset-0 w-full h-full object-cover" />
       <div className="hero-overlay absolute inset-0" />
-      <div className="relative z-10 container mx-auto px-4 lg:px-8">
-        <div className="max-w-2xl">
+      <div className="relative z-10 container mx-auto px-4 lg:px-8 text-center">
+        <div className="max-w-2xl mx-auto">
           <p className="text-accent font-semibold text-sm uppercase tracking-widest mb-3">Export Handling</p>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground mb-6">
             Serving South Korea, Japan & Europe
           </h2>
           <p className="text-primary-foreground/85 text-lg mb-8 leading-relaxed">
-            From export documentation to port logistics, we handle the complexities of international biomass trade so you can focus on your operations.
+            Our export operations are structured to support seamless international biomass supply.
           </p>
           <Link
             to="/export-markets"
