@@ -115,7 +115,7 @@ const Contact = () => {
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-primary mt-0.5" strokeWidth={1.5} />
                     <div className="text-sm text-muted-foreground">
-                      Malang Regency, East Java Province Indonesia
+                      Malang Regency, East Java Province, Indonesia
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -127,7 +127,7 @@ const Contact = () => {
                   <div className="flex items-start gap-3">
                     <Phone className="w-5 h-5 text-primary mt-0.5" strokeWidth={1.5} />
                     <div className="text-sm text-muted-foreground">
-                      +62 857 6387 6233
+                      +62 851 2448 0871
                     </div>
                   </div>
                 </div>
