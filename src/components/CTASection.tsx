@@ -17,20 +17,12 @@ const CTASection = ({
       <p className="text-primary-foreground/80 text-lg mb-8 leading-relaxed">
         {subtitle}
       </p>
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-        <Link
-          to="/contact"
-          className="px-8 py-3 font-semibold bg-accent text-accent-foreground rounded-md hover:bg-accent/90 transition-colors text-sm"
-        >
-          Request Quotation
-        </Link>
-        <Link
-          to="/contact"
-          className="px-8 py-3 font-semibold border-2 border-primary-foreground/30 text-primary-foreground rounded-md hover:bg-primary-foreground/10 transition-colors text-sm"
-        >
-          Discuss Supply Plan
-        </Link>
-      </div>
+      <Link
+        to="/contact"
+        className="inline-block px-8 py-3 font-semibold bg-accent text-accent-foreground rounded-md hover:bg-accent/90 transition-colors text-sm"
+      >
+        Request Quotation
+      </Link>
     </div>
   </section>
 );
