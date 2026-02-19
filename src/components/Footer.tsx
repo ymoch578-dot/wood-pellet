@@ -37,7 +37,7 @@ const Footer = () => (
         <div>
           <h4 className="font-heading text-sm font-semibold mb-4 uppercase tracking-wider opacity-70">Contact</h4>
           <p className="text-sm opacity-80 leading-relaxed">
-            Malang Regency, East Java Province Indonesia<br />
+            Malang Regency, East Java Province, Indonesia<br />
             <span className="inline-flex items-center gap-1.5 mt-1"><Mail className="w-3.5 h-3.5" strokeWidth={1.5} />sales@biomass.suksesekspormandiri.com</span>
           </p>
           <Link
