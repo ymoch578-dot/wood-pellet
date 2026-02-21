@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 
 const Footer = () => (
   <footer className="bg-primary text-primary-foreground">
@@ -38,7 +38,8 @@ const Footer = () => (
           <h4 className="font-heading text-sm font-semibold mb-4 uppercase tracking-wider opacity-70">Contact</h4>
           <p className="text-sm opacity-80 leading-relaxed">
             Malang Regency, East Java Province, Indonesia<br />
-            <span className="inline-flex items-center gap-1.5 mt-1"><Mail className="w-3.5 h-3.5" strokeWidth={1.5} />sales@biomass.suksesekspormandiri.com</span>
+            <span className="inline-flex items-center gap-1.5 mt-1"><Mail className="w-3.5 h-3.5" strokeWidth={1.5} />sales@biomass.suksesekspormandiri.com</span><br />
+            <span className="inline-flex items-center gap-1.5 mt-1"><Phone className="w-3.5 h-3.5" strokeWidth={1.5} />+62 851 2448 0871</span>
           </p>
         </div>
       </div>
